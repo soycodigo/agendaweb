@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<title>Registro en material design</title>
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/materialize.js"></script>
+</head>
+<body>
+
+	<!--barra de navegacion-->
+	<div class="navbar-fixed">
+    <nav class="indigo darken-4">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo center">Agenda Web</a>
+      </div>
+    </nav>
+  </div>
+	<!--barra de navegacion-->
+
+	<br><br>
+	<div class="container">
+
+	<form id="myForm" action="php/registro.php" method="post">
+ 		<input type="text" name="nombre" placeholder="nombre"><br>
+ 		<input type="email" name="correo" placeholder="correo electronico" /><br>
+		<button id="sub" class="btn indigo darken-4">Save<i class="mdi-content-send right"></i></button>
+	</form>
+
+	<span id="result"></span>
+	</div>
+
+	
+</body>
+</html>
